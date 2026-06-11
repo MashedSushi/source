@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const fruitList = [
+            { 이름: '사과', 가격: 21000, 개수: 10 },
+            { 이름: '참외', 가격: 18000, 개수: 20 },
+            { 이름: '귤', 가격: 15000, 개수: 30 }
+        ];
+
+        document.write('<table>');
+        document.write('<tr><th>이름</th><th>가격</th><th>개수</th></tr>');
+
+        for (let i = 0; i < fruitList.length; i++) {
+            document.write('<tr>');
+            document.write(`<td>${fruitList[i].이름}</td>`);
+            document.write(`<td>${fruitList[i].가격}</td>`);
+            document.write(`<td>${fruitList[i].개수}</td>`);
+            document.write('</tr>');
+        }
+
+        document.write('</table>');
+    </script>
+</body>
+</html>
