@@ -1,0 +1,40 @@
+
+.description {
+    color: #666;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.title-box {
+    background-color: red;
+    color: white;              
+    padding: 3px;
+    margin: 15px 0 10px 0;
+}
+
+#main div {
+    background-color: yellow;            
+    display: inline-block;
+}
+
+#main ul .bigtext {
+    font-size: 20px;
+}
+#bigtext {
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+li[class="green"] {
+    color: green;
+}
+
+#italic-blue {
+    color: blue;      
+    font-style: italic;  
+    margin-bottom: 0;
+}
